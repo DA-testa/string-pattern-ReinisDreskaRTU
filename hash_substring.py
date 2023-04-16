@@ -8,7 +8,7 @@ def read_input():
         text = input().rstrip()
 
     elif "F" in input_type:
-        file_name = input()
+        file_name = input().strip()
 
         if "test/" in file_name:
             file_name.replace("test/", "tests/")
